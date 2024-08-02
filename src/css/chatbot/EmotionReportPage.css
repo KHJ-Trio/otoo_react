@@ -1,0 +1,14 @@
+.reportTextBox::-webkit-scrollbar {
+    width: 10px;
+}
+
+.reportTextBox::-webkit-scrollbar-thumb { 
+    background-color: rgb(240, 240, 240);
+}
+.reportTextBox::-webkit-scrollbar-button {
+    display: none;
+}
+.reportTextBox::-webkit-scrollbar-track,
+.reportTextBox::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+}
